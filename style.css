@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poiret+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+:root{
+    --cor0:#82D9D9;
+    --cor1:#36736D;
+    --cor2:#53A69D;
+    --cor3:#3F8C70;
+    --cor4:#0D0D0D;
+    --cordeg:#80D0C7;
+    --cordeg1:#00E94A;
+    --fontmain:'arial'
+}
+
+body{
+    width: 800px;
+    display: block;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+}
+
+
+
+header{
+    height: 150px;
+    background-color: var(--cor1);
+    text-align: center;
+    padding-top: 40px;
+    background-image: linear-gradient(160deg,#00E94A, #80D0C7);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 5px 12px;
+}
+
+header p{
+    padding: 30px;
+    
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: bold;
+    
+}
+
+h2{
+    font-family: 'Poiret One', cursive;
+}
+
+nav{  
+    display: block;
+    margin-top: 5px;
+    font-family: 'Poiret One', cursive;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background-image: linear-gradient(#66fc95,#75f79e);
+    box-shadow: 5px 3px 20px rgba(256, 256, 256, 1 );
+}
+
+main{
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow:-2px 7px 13px 1px ;
+   min-width: 300px;
+   max-width: 907px;
+}
+
+main h1{
+    background-image: linear-gradient(90deg,#00E94A,transparent);
+    padding: 10px;
+    border-radius: 5px 30px;
+    margin: 10px;
+   font-size: 1.5rem;
+  
+}
+
+main h2{
+    margin: 10px;
+    color: #02802a;
+    font-size: 1.2rem;
+}
+
+picture{
+    margin: auto;
+    
+}
+
+img{
+    padding: 10px;
+    
+}
+
+main img{
+    width: 100%;
+}
+
+footer{
+    height: 50px;
+    background-image: linear-gradient(160deg, #80D0C7,#00E94A);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow:-1px 13px 20px;
+}
+
+.extra{
+   
+}
+
+.extrai{
+    margin: 40px;
+    padding: 20px;
+    border: 3px solid var(--cor0);
+    border-radius: 20px 50px;
+}
+
+ul{
+    padding: 10px;
+}
+
+span{
+    background-color: var(--cor0);
+    padding: 3px;
+    border-radius: 10px;
+}
